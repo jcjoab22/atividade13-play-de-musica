@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play de Musica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+     <div class="logo">
+        <img src="assende/logo-ytmusic.svg" alt="logo da musica">
+        ,<span>Music</span>
+     </div>
+     <div class="search-bar">
+        <input type="text" placeholder="perquisar músicas, artistas, álbuns">
+     </div>
+     <div class="user-profile">
+        <I class="fa-solid fa-circle-user"></I>
+     </div>
+    </header>
+
+     <main class="main-container">
+        <section class="player-section">
+            <div class="video-container">
+                <img src="assende/capa-player.svg" alt="Capa do play" class="video-cover">
+                <span class="badge badge-hd">1080p HD</span>
+                <span class="badge badge-type">VÍDEO . MÚSICA</span>
+                <div class="control-time">02:15 / 03:40</div>
+                <button class="btn-like">
+                    <i class="fa-solid fa-heart"></i>
+                </button>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar"></div>
+            </div>
+            <div class="track-info">
+                <h1>Nome da Faixa principal</h1>
+                <h2>Nome do Artista  .  Nome do Àlbum  .  2026</h2>
+            </div>
+        </section>
+
+        <aside class="playlist-section">
+            <h2>A seguir</h2>
+            <ul class="trach-list">
+                <li class="track-item active">
+                    <div class="track-details">
+                        <span class="title"> faixa Atual em Rerodução</span>
+                        <span class="artist">Artista Principal</span>
+                    </div>
+                    <span class="duration">03:40</span>
+                </li>
+                <li class="track-item">
+                    <i class="fa-solid fa-music"></i>
+                    <div class="track-datails">
+                        <span class="title">próxima Faixa 01</span>
+                        <span class="artist"> Outro Artista</span> 
+                    </div>
+                    <span class="duration">04:12</span>
+                </li>
+                <li class="track-item">
+                    <i class="fa-solid fa-music"></i>
+                    <div class="trak-details">
+                        <span class="títle"> Próxima Faixa 02</span>
+                        <span class="artist"> banda Exemplo</span>
+                    </div>
+                    <span class="duration"> 02:58</span>
+                </li>
+                <li class="track-item">
+                    <i class="fa-solid fa-music"></i>
+                    <div class="trak-details">
+                        <span class="títle"> Próxima Faixa 03</span>
+                        <span class="artist"> Artista Convidado</span>
+                    </div>
+                    <span class="duration"> 04:36</span>
+
+            </ul>
+        </aside>
+     </main>
+      <aside class="miniplayer">
+    <div class="miniplayer-thumb">
+      <img src="assende/capa-player.svg" alt="Mini Capa">
+    </div>
+    <div class="miniplayer-info">
+      <span class="miniplayer-tag">EM REPRODUÇÃO</span>
+      <span class="miniplayer-title">Nome da Faixa</span>
+      <span class="miniplayer-artist">Nome do Artista</span>
+    </div>
+    <div class="miniplayer-controls">
+      <button><i class="fa-solid fa-backward-step"></i></button>
+      <button class="btn-play-pause"><i class="fa-solid fa-pause"></i></button>
+      <button><i class="fa-solid fa-forward-step"></i></button>
+    </div>
+  </aside>
+
+</body>
+</html>
