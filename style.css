@@ -23,3 +23,91 @@ body {
   border-bottom: 1px solid #272727;
   padding: 12px 24px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 24px;
+}
+
+.searcg-bar {
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    border: 1px solid #272727;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 40%;
+}
+
+.searcg-bar i {
+    color: #aaaaaa;
+    margin-right: 12px;
+}
+
+.searcg-bar input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+}
+
+.user-profile i {
+    font-size : 24px;
+    color: #aaaaaa;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 24px auto 0 auto;
+    display: flex;
+    gap: 32px;
+
+}
+
+.player-section {
+    flex: 2;
+}
+
+.playlist-section {
+    flex: 1;
+    background-color: #0f0f0f;
+    border: 1px solid #272727;
+    border-radius: 8px;
+    padding: 16px;
+    height: fit-content;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #000;
+}
+
+.video-cover {
+    width: 100%;
+    display: block;
+}
+
+
+.badge {
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0, 0 , 0, 0.75);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 4px;
+
+}
