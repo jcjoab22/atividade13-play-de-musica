@@ -335,3 +335,30 @@ playlist-section h2 {
 .miniplayer-controls .btn-play-pause {
   font-size: 18px;
 }
+
+
+.music-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: #151515;
+    padding: 15px;
+}
+
+.music-player button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.music-player .play {
+    background: white;
+    color: black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+}
